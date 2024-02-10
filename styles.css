@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales para la barra de navegación */
+.navbar {
+    background-color: #333; /* Fondo negro */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imagen_logo {
+    max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  }
+  
+  /* Estilos para la lista de elementos del menú */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu_item {
+    margin-right: 20px;
+    padding: 8px; /* Padding normal */
+    border-radius: 5px;
+    transition: background-color 0.2s; /* Transición para suavizar el cambio de color de fondo */
+  }
+  
+  /* Estilos para enlaces del menú */
+  .menu_item a {
+    text-decoration: none;
+    color: #fff; /* Color del texto blanco */
+  }
+  
+  /* Estilos para el hover de los elementos del menú */
+  .menu_item:hover {
+    background-color: #715BFF; /* Cambia el color de fondo al pasar el ratón */
+    cursor: pointer; /* Muestra el cursor como un puntero */
+  }
+  
+  .menu_item a:hover {
+    color: wheat; /* Cambia el color del texto al pasar el ratón */
+  }
+  
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;
+}
+
+body{
+  background-color: #E9E9E9;
+}
+
+.sobre_nosotros{
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+    margin: 20px; /* Espaciado exterior (opcional) */
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.sobre_nosotros h1{
+    box-shadow: none;
+    font-size: 35px;
+}
+
+.sobre_nosotros p{
+    margin: 25px;
+}
+
+.tecnologias{
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+    margin: 20px; /* Espaciado exterior (opcional) */
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.tecnologias h1{
+    box-shadow: none;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.tecnologias p{
+    margin: 25px;
+}
+
+.tecnologias div{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tecnologias div ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.tecnologias div ul li{
+  margin: 3.5%;
+}
+
+.tecnologias div ul li img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+
+.servicios{
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+    margin: 20px; /* Espaciado exterior (opcional) */
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.servicios h1{
+    box-shadow: none;
+    font-size: 35px;
+}
+
+.servicios p{
+    margin: 25px;
+}
+
+.servicios div{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicios div ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.servicios div ul li{
+  margin: 3.5%;
+}
+
+.servicios div ul li img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+/*Estilos para pagina de contacto*/
+
+
+.contacto{
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+    margin: 20px; /* Espaciado exterior (opcional) */
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.contacto h1{
+    box-shadow: none;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.contacto input{
+    margin: 25px 25px 0px;
+    width: 250px;
+    height: 25px;
+}
+
+.contacto textarea{
+    width: 500px;
+    height: 150px;
+    max-width: 75%;
+    max-height: 50%;
+    margin: 25px;
+}
+
+.contacto button{
+    margin: 0px 25px 25px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Muestra el cursor como un puntero */
+    transition: background-color 0.3s; /* Transición para suavizar el cambio de color al hacer hover */
+}
+
+.contacto button:hover{
+    background-color: #715BFF; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/*Estilos para el pie de pagina*/
+/* Estilos generales para el footer */
+.pie_pagina {
+    background-color: #333; /* Fondo gris claro */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para la lista de redes sociales en el footer */
+  .pie_pagina ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pie_pagina li {
+    margin: 0 20px;
+  }
+  
+  .icon_image {
+    width: 40px; /* Ajusta el tamaño máximo del logotipo según tus necesidades */
+    filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.25)); /*Efecto de sombra*/
+  }
+  
+  .pie_pagina p {
+    color: white; /* Texto blanco */
+    margin-top: 10px;
+  }
+  
+  .pie_pagina p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .pie_pagina a {
+    text-decoration: none;
+    color: white; /* Color del texto white para los enlaces */
+  }
+
+  .pie_pagina a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Estilos para el texto de copyright en el footer */
+  .pie_pagina p:last-child {
+    margin-top: 20px;
+    color: wheat; /* Texto gris oscuro */
+    font-size: 18px; /* Tamaño de fuente más pequeño para el copyright */
+  }
+
+  /* Estilos para pantallas pequeñas (responsive) */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu_item {
+      margin: 10px 0;
+      padding: 10px; /* Padding normal */
+    }
+  
+    /* Estilos para el hover de los elementos del menú en pantallas pequeñas */
+    .menu_item:hover {
+      background-color: #715BFF; /* Cambia el color de fondo al pasar el ratón */
+      cursor: pointer; /* Muestra el cursor como un puntero */
+    }
+  
+    .menu_item a:hover {
+      color: wheat; /* Cambia el color del texto al pasar el ratón */
+    }
+
+    .tecnologias div ul{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .servicios div ul{
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
